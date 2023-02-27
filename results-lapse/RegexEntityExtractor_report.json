@@ -1,0 +1,142 @@
+{
+  "type": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "cheese_shape": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "brand": {
+    "precision": 0.9876543209876543,
+    "recall": 0.7079646017699115,
+    "f1-score": 0.8247422680412372,
+    "support": 113,
+    "confused_with": {}
+  },
+  "taste": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 49,
+    "confused_with": {}
+  },
+  "doogh_sabzi": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "family_drink": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "cat": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "bag": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "volume": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 52,
+    "confused_with": {
+      "brand": 1
+    }
+  },
+  "size": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "product": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "bag_number": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "package": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "tea_aromatic": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "weight": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 58,
+    "confused_with": {}
+  },
+  "charbi": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "gazdar": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9876543209876543,
+    "recall": 0.23054755043227665,
+    "f1-score": 0.37383177570093457,
+    "support": 347
+  },
+  "macro avg": {
+    "precision": 0.05809731299927378,
+    "recall": 0.041644976574700676,
+    "f1-score": 0.04851425106124924,
+    "support": 347
+  },
+  "weighted avg": {
+    "precision": 0.32162806418329953,
+    "recall": 0.23054755043227665,
+    "f1-score": 0.26857601235925016,
+    "support": 347
+  },
+  "accuracy": 0.6927502876869965
+}

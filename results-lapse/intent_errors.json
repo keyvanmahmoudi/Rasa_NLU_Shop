@@ -1,0 +1,210 @@
+[
+  {
+    "text": "این سبد رو کاملا حذف کنین بی زحمت",
+    "intent": "Regret",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "باشه بزارش توی سبد",
+    "intent": "User_Confirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "by",
+    "intent": "Goodby",
+    "intent_prediction": {
+      "name": "User_Confirm",
+      "confidence": 0.4696614444255829
+    }
+  },
+  {
+    "text": "شیرامگا ۳ دامداران بذارین توی سبدم",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ماست یونانی می ماس 1.5 کیلویی",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "پنیر پیتزا پروسس وارنا 2 تا اضافه کنین به سبدم",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999980926513672
+    }
+  },
+  {
+    "text": "کشک پگاه 380 گرمی عالیه همینو می خوام",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "User_Confirm",
+      "confidence": 0.690688967704773
+    }
+  },
+  {
+    "text": "بستنی سالار توت فرنگی میهن بدین بی زحمت",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "دوغ گازدار شیشه ای آبعلی 260 میلی لیتری می خوام",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999709129333496
+    }
+  },
+  {
+    "text": "چای کیسه ای عطری احمد 2 بسته می خوام از اون 100 تایی ها",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "user_ask",
+      "confidence": 0.7883827090263367
+    }
+  },
+  {
+    "text": "2 تا گلاب ربیع بدین لطفا",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "شربت پشن فروت سن ایچ 780 میلی لیتری اگه موجوده 2 تا بران توی سبد قرار بدین لطفا",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.999995231628418
+    }
+  },
+  {
+    "text": "غنچه گل محمدی گلستان 40 گرمی دو تا بسته اضافه بشه به سبدم",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "User_Confirm",
+      "confidence": 0.9998748302459717
+    }
+  },
+  {
+    "text": "پنیر لازانیا ورقه ای وارنا 180 گرمیشو بدین بی زحمت",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "پاکتی دامداران",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "کشک پاستوریزه دهکده نصر 215 گرمی اگه هست 2 تا بدین بی زحمت",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9984176158905029
+    }
+  },
+  {
+    "text": "دوغ آبعلی نعنایی هست؟",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "شربت زعفرانی سحرخیز 900 گرمی اضافه بشه به سبد",
+    "intent": "purchase",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6044132709503174
+    }
+  },
+  {
+    "text": "پنیر گنده میخوام.",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "purchase",
+      "confidence": 0.9999485015869141
+    }
+  },
+  {
+    "text": "همین آخریو می خوام",
+    "intent": "prev_inform",
+    "intent_prediction": {
+      "name": "Goodby",
+      "confidence": 0.9998928308486938
+    }
+  },
+  {
+    "text": "کدومش بهتره؟",
+    "intent": "ask_detail",
+    "intent_prediction": {
+      "name": "user_ask",
+      "confidence": 0.685486912727356
+    }
+  },
+  {
+    "text": "برای بچه کوچیک می خوام",
+    "intent": "ask_detail",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8154218792915344
+    }
+  },
+  {
+    "text": "کلا این سبد چقدر شد؟",
+    "intent": "user_ask",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.461063414812088
+    }
+  },
+  {
+    "text": "بزرگترین رو می خوام",
+    "intent": "user_ask",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "چقدر هوا خوبه امروز",
+    "intent": "chichat",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9911138415336609
+    }
+  },
+  {
+    "text": "آدرس فروشگاه کجاست",
+    "intent": "chichat",
+    "intent_prediction": {
+      "name": "User_Confirm",
+      "confidence": 0.7093569040298462
+    }
+  }
+]

@@ -1,0 +1,3712 @@
+[
+  {
+    "text": "شیر پرچرب وارنا لازم دارم",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "پرچرب",
+        "entity": "charbi"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "وارنا",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9971786737442017,
+        "value": "شیر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "charbi",
+        "start": 4,
+        "end": 15,
+        "confidence_entity": 0.5949208736419678,
+        "value": "پرچرب وارنا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 10,
+        "end": 15,
+        "value": "وارنا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "شیرامگا ۳ دامداران بذارین توی سبدم",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "دامداران",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brand",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.5836498141288757,
+        "value": "شیرامگا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999958276748657,
+        "value": "دامداران",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ماست پرچرب پاستوریزه برکت دارین؟",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "پرچرب",
+        "entity": "charbi"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "value": "برکت",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9935801029205322,
+        "value": "ماست",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "charbi",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9990384578704834,
+        "value": "پرچرب",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.862919270992279,
+        "value": "پاستوریزه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 21,
+        "end": 25,
+        "value": "برکت",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ماست چکیده موسیر مزرعه ماهشام سایز بزرگ می خواستم",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "ماست چکیده موسیر",
+        "entity": "type"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "ماهشام",
+        "entity": "brand"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "بزرگ",
+        "entity": "size"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.7908785939216614,
+        "value": "ماست چکیده موسیر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "size",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9998674392700195,
+        "value": "بزرگ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 23,
+        "end": 29,
+        "value": "ماهشام",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ماست توت فرنگی وارنا اگه 125 گرمیشو دارین می خوام اگه نه که هیچی",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "توت فرنگی",
+        "entity": "taste"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "وارنا",
+        "entity": "brand"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "value": "125 گرمیشو",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9984151124954224,
+        "value": "ماست",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 5,
+        "end": 20,
+        "confidence_entity": 0.6610031723976135,
+        "value": "توت فرنگی وارنا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.7116546034812927,
+        "value": "125 گرمیشو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 20,
+        "value": "وارنا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کره چوپان 100 گرمی می خواستم",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "چوپان",
+        "entity": "brand"
+      },
+      {
+        "start": 10,
+        "end": 18,
+        "value": "100 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9953122138977051,
+        "value": "کره",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 4,
+        "end": 9,
+        "confidence_entity": 0.9997783303260803,
+        "value": "چوپان",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9996098875999451,
+        "value": "100 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 4,
+        "end": 9,
+        "value": "چوپان",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پنیر سفید ایرانی صباح 400 گرم بزارین توی سبد و برام بفرستین",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "پنیر سفید",
+        "entity": "cat"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "صباح",
+        "entity": "brand"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "400 گرم",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9965202808380127,
+        "value": "پنیر سفید",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9538045525550842,
+        "value": "400 گرم",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 21,
+        "value": "صباح",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پنیر پیتزا پروسس وارنا 2 تا اضافه کنین به سبدم",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "پنیر پیتزا",
+        "entity": "cat"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "وارنا",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type",
+        "start": 0,
+        "end": 22,
+        "confidence_entity": 0.8353672027587891,
+        "value": "پنیر پیتزا پروسس وارنا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 22,
+        "value": "وارنا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "3 تا خامه عسلی پاک بدین لطفا",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "عسلی",
+        "entity": "type"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "پاک",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9999533891677856,
+        "value": "خامه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9998824596405029,
+        "value": "عسلی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9999803304672241,
+        "value": "پاک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 18,
+        "value": "پاک",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کشک کامبیز 230 گرم موجود دارین",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "کامبیز",
+        "entity": "brand"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "230 گرم",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9998071789741516,
+        "value": "کشک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.993408203125,
+        "value": "230 گرم",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 4,
+        "end": 10,
+        "value": "کامبیز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کشک سیر و نعنا کامبیز 250 گرمی می خواستم",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "کامبیز",
+        "entity": "brand"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "value": "250 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9601330161094666,
+        "value": "کشک سیر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.3081599771976471,
+        "value": "نعنا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.44020670652389526,
+        "value": "کامبیز",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.9914214015007019,
+        "value": "250 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 21,
+        "value": "کامبیز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کشک پگاه 380 گرمی عالیه همینو می خوام",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "پگاه",
+        "entity": "brand"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "380 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999560117721558,
+        "value": "کشک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.9999951124191284,
+        "value": "پگاه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9685941934585571,
+        "value": "380 گرمی",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "بستنی کاکائویی میهن ۱ لیتری می خوام",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "کاکائویی",
+        "entity": "type"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "میهن",
+        "entity": "brand"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "value": "۱ لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9999585151672363,
+        "value": "بستنی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9999902248382568,
+        "value": "میهن",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9992979764938354,
+        "value": "۱ لیتری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 19,
+        "value": "میهن",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "بستی پریما میهن دارین؟",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "پریما",
+        "entity": "type"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "value": "میهن",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.7954597473144531,
+        "value": "پریما",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9999880790710449,
+        "value": "میهن",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 11,
+        "end": 15,
+        "value": "میهن",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "بستنی سالار توت فرنگی میهن بدین بی زحمت",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "value": "توت فرنگی",
+        "entity": "taste"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "میهن",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9999945163726807,
+        "value": "بستنی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.9999914169311523,
+        "value": "سالار",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.9525920152664185,
+        "value": "توت فرنگی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9999912977218628,
+        "value": "میهن",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 22,
+        "end": 26,
+        "value": "میهن",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "دوغ گرما دیده خوشگوار 1500 سی سی",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "value": "خوشگوار",
+        "entity": "brand"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "1500 سی سی",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.999984860420227,
+        "value": "دوغ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.3995693027973175,
+        "value": "1500 سی سی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 21,
+        "value": "خوشگوار",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "دوغ گازدار شیشه ای آبعلی 260 میلی لیتری می خوام",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "گازدار",
+        "entity": "gazdar"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "شیشه ای",
+        "entity": "package"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "آبعلی",
+        "entity": "brand"
+      },
+      {
+        "start": 25,
+        "end": 39,
+        "value": "260 میلی لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999234676361084,
+        "value": "دوغ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gazdar",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9936042428016663,
+        "value": "گازدار",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cheese_shape",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.4726388454437256,
+        "value": "ای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9999686479568481,
+        "value": "آبعلی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 25,
+        "end": 39,
+        "confidence_entity": 0.9938336610794067,
+        "value": "260 میلی لیتری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 19,
+        "end": 24,
+        "value": "آبعلی",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نوشیدنی انرژی زا بلک برن هست؟",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "بلک برن",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9107836484909058,
+        "value": "انرژی زا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 24,
+        "value": "بلک برن",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "انرژی‌زا لمسر 250 میلی دارین",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "لمسر",
+        "entity": "brand"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "value": "250 میلی",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "volume",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.6168516278266907,
+        "value": "لمسر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.6031476855278015,
+        "value": "250 میلی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 13,
+        "value": "لمسر",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "آب معدنی گازدار کولاک سودا اگه دارین می خوام",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "گازدار",
+        "entity": "gazdar"
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "value": "کولاک سودا",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9622889757156372,
+        "value": "آب معدنی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gazdar",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9965943694114685,
+        "value": "گازدار",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.22590263187885284,
+        "value": "کولاک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.5228198170661926,
+        "value": "سودا",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "آب معدنی واتا موجوده؟",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "واتا",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9994964599609375,
+        "value": "آب معدنی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9960516095161438,
+        "value": "واتا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 13,
+        "value": "واتا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نکتار آناناس اروم آدا 1 لیتری موجود دارین؟",
+    "entities": [
+      {
+        "start": 6,
+        "end": 12,
+        "value": "آناناس",
+        "entity": "taste"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "اروم آدا",
+        "entity": "volume"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "1 لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.999901533126831,
+        "value": "آناناس",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.7110782265663147,
+        "value": "اروم",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.45139458775520325,
+        "value": "آدا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9996523857116699,
+        "value": "1 لیتری",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3 تا رانی لیمو می خواستم",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "رانی",
+        "entity": "volume"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "لیمو",
+        "entity": "taste"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brand",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9999222755432129,
+        "value": "رانی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9998903274536133,
+        "value": "لیمو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 5,
+        "end": 9,
+        "value": "رانی",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نکتار هفت ميوه چینود 1 لیتری دارین توی فروشگاه؟",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "هفت ميوه",
+        "entity": "taste"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "چینود",
+        "entity": "brand"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "1 لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.69792240858078,
+        "value": "ميوه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.35991358757019043,
+        "value": "چینود",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9992414712905884,
+        "value": "1 لیتری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 20,
+        "value": "چینود",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نوشابه قوطی اسپرایت 330 میلی هست؟",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "قوطی",
+        "entity": "package"
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "value": "اسپرایت",
+        "entity": "brand"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "value": "330 میلی",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9991687536239624,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "package",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9994819760322571,
+        "value": "قوطی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.962497889995575,
+        "value": "330 میلی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 19,
+        "value": "سپرایت",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "نوشابه کوکاکولا 300 میلی لیتری می خوام",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "کوکاکولا",
+        "entity": "brand"
+      },
+      {
+        "start": 16,
+        "end": 30,
+        "value": "300 میلی لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999579191207886,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9999762773513794,
+        "value": "کوکاکولا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 16,
+        "end": 30,
+        "confidence_entity": 0.9973638653755188,
+        "value": "300 میلی لیتری",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "نوشابه کولا ماکس قوطی پپسی موجود دارین؟",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "کولا ماکس",
+        "entity": "brand"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "قوطی",
+        "entity": "package"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "پپسی",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999911785125732,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.7288734912872314,
+        "value": "کولا ماکس",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "package",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9995909333229065,
+        "value": "قوطی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9999877214431763,
+        "value": "پپسی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 7,
+        "end": 16,
+        "value": "کولا ماکس",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "چای کیسه ای عطری احمد 2 بسته می خوام از اون 100 تایی ها",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "عطری",
+        "entity": "tea_aromatic"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "احمد",
+        "entity": "brand"
+      },
+      {
+        "start": 44,
+        "end": 47,
+        "value": "100",
+        "entity": "bag_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9997674822807312,
+        "value": "چای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.7397573590278625,
+        "value": "کیسه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "tea_aromatic",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.34029677510261536,
+        "value": "عطری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.99997878074646,
+        "value": "احمد",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 44,
+        "end": 47,
+        "confidence_entity": 0.8085957765579224,
+        "value": "100",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 21,
+        "value": "احمد",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "چای ساده دو غزال موجوده؟",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "دو غزال",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cat",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.8577423095703125,
+        "value": "چای ساده",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cat",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.8892041444778442,
+        "value": "غزال",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 16,
+        "value": "دو غزال",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کاپوچینو تورابیکا 25 گرمی دارین؟ 20 تا می خوام",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "کاپوچینو",
+        "entity": "taste"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "تورابیکا",
+        "entity": "brand"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "value": "25 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9929611086845398,
+        "value": "کاپوچینو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9999203681945801,
+        "value": "تورابیکا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag_number",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.977044403553009,
+        "value": "25 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag_number",
+        "start": 33,
+        "end": 35,
+        "confidence_entity": 0.9880947470664978,
+        "value": "20",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "قهوه فوری رد ماگ استارباکس  اگه هست بزارین توی سبدم لطفا",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "قهوه فوری",
+        "entity": "taste"
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "value": "استارباکس ",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9991157650947571,
+        "value": "قهوه فوری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 26,
+        "value": "استارباکس",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "قهوه فوری بلک گلد لمیز توی فروشگاه دارین",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "قهوه فوری",
+        "entity": "taste"
+      },
+      {
+        "start": 18,
+        "end": 22,
+        "value": "لمیز",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.997430145740509,
+        "value": "قهوه فوری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 10,
+        "end": 22,
+        "confidence_entity": 0.45455554127693176,
+        "value": "بلک گلد لمیز",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 18,
+        "end": 22,
+        "value": "لمیز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "شربت سکنجبین کامبیز اگه هست بزار تو سبد برام",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "سکنجبین",
+        "entity": "taste"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "کامبیز",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.42378440499305725,
+        "value": "شربت سکنجبین",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9773714542388916,
+        "value": "کامبیز",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 13,
+        "end": 19,
+        "value": "کامبیز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "شربت لیمو سن ایچ می خواستم",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "لیمو",
+        "entity": "taste"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "سن ایچ",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999889135360718,
+        "value": "شربت",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9995808005332947,
+        "value": "لیمو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9988019466400146,
+        "value": "سن ایچ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "شربت پشن فروت سن ایچ 780 میلی لیتری اگه موجوده 2 تا بران توی سبد قرار بدین لطفا",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "پشن فروت",
+        "entity": "taste"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "سن ایچ",
+        "entity": "brand"
+      },
+      {
+        "start": 21,
+        "end": 35,
+        "value": "780 میلی لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.21448048949241638,
+        "value": "شربت پشن فروت",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9791179895401001,
+        "value": "سن ایچ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 21,
+        "end": 35,
+        "confidence_entity": 0.9901556968688965,
+        "value": "780 میلی لیتری",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "دمنوش عناب مهرگیاه موجوده؟",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "عناب",
+        "entity": "taste"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "مهرگیاه",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9999866485595703,
+        "value": "دمنوش",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.6069764494895935,
+        "value": "عناب",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9996103644371033,
+        "value": "مهرگیاه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 11,
+        "end": 18,
+        "value": "مهرگیاه",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "غنچه گل محمدی گلستان 40 گرمی دو تا بسته اضافه بشه به سبدم",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "غنچه گل محمدی",
+        "entity": "taste"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "گلستان",
+        "entity": "brand"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "40 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.51283860206604,
+        "value": "محمدی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9998480081558228,
+        "value": "گلستان",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9842350482940674,
+        "value": "40 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 20,
+        "value": "گلستان",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "شیر نیم چرب ون می خوام",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "نیم چرب",
+        "entity": "charbi"
+      },
+      {
+        "start": 12,
+        "end": 14,
+        "value": "ون",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9985666871070862,
+        "value": "شیر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "charbi",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9598440527915955,
+        "value": "نیم چرب",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "charbi",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.43638333678245544,
+        "value": "ون",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 14,
+        "value": "ون",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "شیر پاستوریزه ارژن بدین  لطفا",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "ارژن",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9546389579772949,
+        "value": "شیر",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ماست کم چرب پاکبان هم اگه هست بی زحمت یه نیم کیلوییشو به سبدم اضافه کنین",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "کم چرب",
+        "entity": "charbi"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "value": "پاکبان",
+        "entity": "brand"
+      },
+      {
+        "start": 41,
+        "end": 53,
+        "value": "نیم کیلوییشو",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9994981288909912,
+        "value": "ماست",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "charbi",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9959365129470825,
+        "value": "کم چرب",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.999894380569458,
+        "value": "پاکبان",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 41,
+        "end": 53,
+        "confidence_entity": 0.5356573462486267,
+        "value": "نیم کیلوییشو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 18,
+        "value": "پاکبان",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ماست چکیده پاستوریزه هامون نیم کیلویی موجود؟",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "ماست چکیده",
+        "entity": "type"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "هامون",
+        "entity": "brand"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "value": "نیم کیلویی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9985344409942627,
+        "value": "چکیده",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "type",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.8690587878227234,
+        "value": "پاستوریزه هامون",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.65,
+        "value": "نیم کیلویی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 21,
+        "end": 26,
+        "value": "هامون",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ماست سنتی دامداران دارین؟",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "دامداران",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.99892657995224,
+        "value": "ماست",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999935626983643,
+        "value": "دامداران",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "کره 500 گرمی موجود هست؟",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "500 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.999152421951294,
+        "value": "کره",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9920669794082642,
+        "value": "500 گرمی",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "پنیر 1 کیلویی شیرآوران دارین؟",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "1 کیلویی",
+        "entity": "weight"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "value": "شیرآوران",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9248390197753906,
+        "value": "پنیر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.5096011161804199,
+        "value": "1 کیلویی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9654836058616638,
+        "value": "شیرآوران",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 22,
+        "value": "شیرآوران",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پنیر لازانیا ورقه ای وارنا 180 گرمیشو بدین بی زحمت",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "پنیر لازانیا",
+        "entity": "type"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "value": "ورقه ای",
+        "entity": "cheese_shape"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "وارنا",
+        "entity": "brand"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "value": "180 گرمیشو",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cat",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.37832286953926086,
+        "value": "پنیر لازانیا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cheese_shape",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.829132616519928,
+        "value": "ورقه ای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.7163355350494385,
+        "value": "وارنا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.7773425579071045,
+        "value": "180 گرمیشو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 21,
+        "end": 26,
+        "value": "وارنا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پنیر خامه ای ویلی وارنا بزار توی سبد",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "پنیر خامه ای",
+        "entity": "cat"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "وارنا",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.8113332390785217,
+        "value": "پنیر خامه ای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.5310777425765991,
+        "value": "ویلی وارنا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 18,
+        "end": 23,
+        "value": "وارنا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "خامه شکلاتی پاک موجود دارین",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "شکلاتی",
+        "entity": "type"
+      },
+      {
+        "start": 12,
+        "end": 15,
+        "value": "پاک",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999548196792603,
+        "value": "خامه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9995930790901184,
+        "value": "شکلاتی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.9999924898147583,
+        "value": "پاک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 15,
+        "value": "پاک",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کشک سنتی آسان پک سمیه دارین",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "سمیه",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999963045120239,
+        "value": "کشک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9999942779541016,
+        "value": "سمیه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 21,
+        "value": "سمیه",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "کشک پاستوریزه دهکده نصر 215 گرمی اگه هست 2 تا بدین بی زحمت",
+    "entities": [
+      {
+        "start": 14,
+        "end": 23,
+        "value": "دهکده نصر",
+        "entity": "brand"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "value": "215 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999711513519287,
+        "value": "کشک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 4,
+        "end": 13,
+        "confidence_entity": 0.9158903956413269,
+        "value": "پاستوریزه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.999817430973053,
+        "value": "دهکده",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.5146631598472595,
+        "value": "نصر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9836776256561279,
+        "value": "215 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 23,
+        "value": "دهکده نصر",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "بستنی کارنیتا قیفی 5 تا می خواستم",
+    "entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "value": "کارنیتا قیفی",
+        "entity": "type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9999157190322876,
+        "value": "بستنی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.38721320033073425,
+        "value": "کارنیتا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9933288097381592,
+        "value": "قیفی",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "بستنی بیسکویتی دومینو 5 تا می خوام",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "بیسکویتی",
+        "entity": "type"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "value": "دومینو",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.6820659637451172,
+        "value": "بستنی بیسکویتی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9999886751174927,
+        "value": "دومینو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 21,
+        "value": "دومینو",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "بستنی میکی موس وانیلی اگه هست می خواستم",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "میکی موس",
+        "entity": "brand"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "value": "وانیلی",
+        "entity": "type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.6350198984146118,
+        "value": "بستنی میکی موس",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9995375871658325,
+        "value": "وانیلی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 6,
+        "end": 14,
+        "value": "میکی موس",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "دوغ گازدار و گرمادیده عالیس از این 1.5 لیتریا می خوام",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "عالیس",
+        "entity": "brand"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "value": "1.5 لیتریا",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999310970306396,
+        "value": "دوغ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gazdar",
+        "start": 4,
+        "end": 21,
+        "confidence_entity": 0.24218682944774628,
+        "value": "گازدار و گرمادیده",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9999432563781738,
+        "value": "عالیس",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 35,
+        "end": 45,
+        "confidence_entity": 0.758262574672699,
+        "value": "1.5 لیتریا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 22,
+        "end": 27,
+        "value": "عالیس",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "دوغ آبعلی نعنایی هست؟",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "آبعلی",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9999855756759644,
+        "value": "دوغ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 4,
+        "end": 9,
+        "confidence_entity": 0.9999964237213135,
+        "value": "آبعلی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9998571872711182,
+        "value": "نعنایی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 4,
+        "end": 9,
+        "value": "آبعلی",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "انرژی زا هپی لایف 3 تا می خوام",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "هپی لایف",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.991356611251831,
+        "value": "انرژی زا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.9845036268234253,
+        "value": "هپی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.3137434124946594,
+        "value": "لایف",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 9,
+        "end": 17,
+        "value": "هپی لایف",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نوشابه گازدار آیسی مانکی لازم دارم",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "value": "آیسی مانکی",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9989944100379944,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gazdar",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9985124468803406,
+        "value": "گازدار",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9991796612739563,
+        "value": "آیسی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.84165358543396,
+        "value": "مانکی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 24,
+        "value": "آیسی مانکی",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "آب غنی شده اکساب نیم لیتری بدین لطفا",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "اکساب",
+        "entity": "brand"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "value": "نیم لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cat",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.6231381893157959,
+        "value": "غنی شده",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9206311702728271,
+        "value": "اکساب",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.7480509281158447,
+        "value": "نیم لیتری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 11,
+        "end": 16,
+        "value": "اکساب",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "آب پرتقال گازدار گلشن اگه هست اضافه بشه به سبدم",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "پرتقال",
+        "entity": "taste"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "گازدار",
+        "entity": "gazdar"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "گلشن",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9981729984283447,
+        "value": "پرتقال",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gazdar",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.9629850387573242,
+        "value": "گازدار گلشن",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "آب پرتقال پدیده از این کوچیکا بدین لطفا",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "پرتقال",
+        "entity": "taste"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "پدیده",
+        "entity": "brand"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "کوچیکا",
+        "entity": "size"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9999843835830688,
+        "value": "پرتقال",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "size",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9976975321769714,
+        "value": "کوچک",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "نوشابه پرتقالی میرندا 1.5 لیتری می خواستم",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "میرندا",
+        "entity": "brand"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "1.5 لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999535083770752,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.9998975992202759,
+        "value": "پرتقالی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9999958276748657,
+        "value": "میرندا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9803266525268555,
+        "value": "1.5 لیتری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 15,
+        "end": 21,
+        "value": "میرندا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نوشابه گازدار بطری اسپرایت بدین لطفا",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "بطری",
+        "entity": "package"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "اسپرایت",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9997660517692566,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gazdar",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9956450462341309,
+        "value": "گازدار",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "package",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9988858103752136,
+        "value": "بطری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 19,
+        "end": 26,
+        "value": "سپرایت",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "نوشابه لیمویی سون آپ از این بزرگا می خوام",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "سون آپ",
+        "entity": "brand"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "بزرگا",
+        "entity": "size"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9994763731956482,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 7,
+        "end": 20,
+        "confidence_entity": 0.8723301887512207,
+        "value": "لیمویی سون آپ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "size",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9979661703109741,
+        "value": "بزرگ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 20,
+        "value": "سون آپ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نوشابه لیمویی فانتا می خواستم",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "فانتا",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.999900221824646,
+        "value": "نوشابه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9999270439147949,
+        "value": "لیمویی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.999895453453064,
+        "value": "فانتا",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 19,
+        "value": "فانتا",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "چای کیسه ای ارل گری توئینینگز 25 عدیدشو اگه دارین اضافه بشه به سبدم",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "کیسه ای",
+        "entity": "bag"
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "value": "ارل گری",
+        "entity": "brand"
+      },
+      {
+        "start": 30,
+        "end": 32,
+        "value": "25",
+        "entity": "bag_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9850227236747742,
+        "value": "چای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.58,
+        "value": "کیسه ای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.4362729787826538,
+        "value": "ارل گری",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag_number",
+        "start": 30,
+        "end": 32,
+        "confidence_entity": 0.879940390586853,
+        "value": "25",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 19,
+        "value": "ارل گری",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "چای سنتی انگلیسی توئیننیگز می خواستم",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "توئیننیگز",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brand",
+        "start": 17,
+        "end": 26,
+        "value": "توئیننیگز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "عرق نعناع ربیع 450 گرمی می خواستم",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "نعناع",
+        "entity": "type"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "ربیع",
+        "entity": "brand"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "value": "450 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9996781349182129,
+        "value": "عرق",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9999392032623291,
+        "value": "ربیع",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9430680274963379,
+        "value": "450 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 10,
+        "end": 14,
+        "value": "ربیع",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پودر قهوه ترک خاچیک 100 گرمیشو دارین؟",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "پودر قهوه",
+        "entity": "taste"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "خاچیک",
+        "entity": "brand"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "value": "100 گرمیشو",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6421164274215698,
+        "value": "پودر",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 5,
+        "end": 19,
+        "confidence_entity": 0.9417476654052734,
+        "value": "قهوه ترک خاچیک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 20,
+        "end": 30,
+        "confidence_entity": 0.9632230997085571,
+        "value": "100 گرمیشو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 14,
+        "end": 19,
+        "value": "خاچیک",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نسکافه ۳ در ۱ لازم دارم",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "نسکافه",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brand",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999423027038574,
+        "value": "نسکافه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.585853636264801,
+        "value": "۱",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 0,
+        "end": 6,
+        "value": "نسکافه",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "نسکافه جاکوبس 200 گرمی چنده؟",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "نسکافه",
+        "entity": "brand"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "value": "200 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brand",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9999616146087646,
+        "value": "نسکافه",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9365324974060059,
+        "value": "جاکوبس",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9975566864013672,
+        "value": "200 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 0,
+        "end": 6,
+        "value": "نسکافه",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پودر کاکائو خاچیک صد گرمی می خواستم لطفا",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "پودر کاکائو",
+        "entity": "taste"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "value": "خاچیک",
+        "entity": "brand"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "value": "صد گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taste",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.4561674892902374,
+        "value": "پودر کاکائو خاچیک",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9816403985023499,
+        "value": "صد گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 17,
+        "value": "خاچیک",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "شربت موهیتو سن‌ایج 2 لیتری می خوام",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "موهیتو",
+        "entity": "taste"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "value": "سن‌ایج",
+        "entity": "brand"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "2 لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.4633771777153015,
+        "value": "شربت",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9955959916114807,
+        "value": "موهیتو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9997770190238953,
+        "value": "سن‌ایج",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9978898167610168,
+        "value": "2 لیتری",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "شربت پرتقال سن ایچ 2 لیتری هم بده بی زحمت",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "پرتقال",
+        "entity": "taste"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "value": "سن ایچ",
+        "entity": "brand"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "2 لیتری",
+        "entity": "volume"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999914169311523,
+        "value": "شربت",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "taste",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9999716281890869,
+        "value": "پرتقال",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9983744621276855,
+        "value": "سن ایچ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "volume",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9963335990905762,
+        "value": "2 لیتری",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "شربت زعفرانی سحرخیز 900 گرمی اضافه بشه به سبد",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "زعفرانی",
+        "entity": "taste"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "سحرخیز",
+        "entity": "brand"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "value": "900 گرمی",
+        "entity": "weight"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6124007701873779,
+        "value": "شربت",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.7478557825088501,
+        "value": "زعفرانی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "weight",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9787098169326782,
+        "value": "900 گرمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 13,
+        "end": 19,
+        "value": "سحرخیز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "دمنوش گل گاو زبان سحرخیز می خواستم",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "value": " گل گاو زبان",
+        "entity": "taste"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "سحرخیز",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9951972365379333,
+        "value": "دمنوش",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 6,
+        "end": 8,
+        "confidence_entity": 0.9540663361549377,
+        "value": "گل",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.8302521705627441,
+        "value": "گاو",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.5313726663589478,
+        "value": "سحرخیز",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 18,
+        "end": 24,
+        "value": "سحرخیز",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "دمنوش جنسینگ و چای سفید رستمی بدین بی زحمت",
+    "entities": [
+      {
+        "start": 6,
+        "end": 23,
+        "value": "جنسینگ و چای سفید",
+        "entity": "taste"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "رستمی",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9999114274978638,
+        "value": "دمنوش",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.588112473487854,
+        "value": "جنسینگ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "product",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.8016996383666992,
+        "value": "چای",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.5679983496665955,
+        "value": "رستمی",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brand",
+        "start": 24,
+        "end": 29,
+        "value": "رستمی",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "پنیر گنده میخوام.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "پنیر",
+        "entity": "product"
+      },
+      {
+        "start": 5,
+        "end": 9,
+        "value": "گنده",
+        "entity": "size"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "product",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.7985506057739258,
+        "value": "پنیر گنده",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "اسپرایت ندارین؟",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "اسپرایت",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brand",
+        "start": 0,
+        "end": 7,
+        "value": "سپرایت",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "برای بچه کوچیک می خوام",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "size",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9990338087081909,
+        "value": "کوچک",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "بزرگترین رو می خوام",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "size",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9998894929885864,
+        "value": "بزرگترین",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
